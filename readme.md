@@ -15,30 +15,18 @@ $ npm install hms-to-seconds
 ```js
 const hmsToSeconds = require('hms-to-seconds');
 
-hmsToSeconds('unicorns');
-//=> 'unicorns & rainbows'
+hmsToSeconds('00:12:32');
+//=> 752
 ```
 
 
 ## API
 
-### hmsToSeconds(input, [options])
+### hmsToSeconds(input)
 
 #### input
 
 Type: `string`
-
-Lorem ipsum.
-
-#### options
-
-##### foo
-
-Type: `boolean`<br>
-Default: `false`
-
-Lorem ipsum.
-
 
 ## License
 
