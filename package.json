@@ -1,6 +1,6 @@
 {
 	"name": "hms-to-seconds",
-	"version": "0.0.0",
+	"version": "1.0.0",
 	"description": "Convert HH:MM:SS to seconds",
 	"license": "MIT",
 	"repository": "fBosch/hms-to-seconds",
@@ -21,6 +21,10 @@
 	"keywords": [
 		""
 	],
+	"xo": {
+		"semicolon":false,
+		"space":true
+	},
 	"dependencies": {},
 	"devDependencies": {
 		"ava": "^0.20.0",

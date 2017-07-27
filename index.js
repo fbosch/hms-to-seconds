@@ -5,10 +5,12 @@ module.exports = input => {
   }
 
   const split = input.split(':')
-  let seconds = 0, minutes = 1
+  let seconds = 0
+  let minutes = 1
   while (split.length > 0) {
     seconds += minutes * parseInt(split.pop(), 10)
     minutes *= 60
   }
+
   return seconds
 }
