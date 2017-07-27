@@ -1,6 +1,6 @@
 {
 	"name": "hms-to-seconds",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Convert HH:MM:SS to seconds",
 	"license": "MIT",
 	"repository": "fBosch/hms-to-seconds",
@@ -19,7 +19,13 @@
 		"index.js"
 	],
 	"keywords": [
-		""
+		"time",
+		"convert",
+		"hh:mm:ss",
+		"hours",
+		"minutes",
+		"seconds",
+		"miliseconds"
 	],
 	"xo": {
 		"semicolon":false,
